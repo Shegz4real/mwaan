@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title user profile
+    link(rel='stylesheet', href='css/login.css')
+    body
+        #container
+            form(action="/login", method ='POST')
+                h1 USER LOGIN
+                label username:
+                input(type="text", name= "username")
+                label password:
+                input(type="password", name ="password")
+                input(type="submit", value ="login")         
